@@ -124,6 +124,9 @@
     padding-right: 1em;
     vertical-align: middle;
   }
+  .ti {
+    font-size: 1.25em;
+  }
 }
 
 @layer components {

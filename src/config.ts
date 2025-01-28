@@ -6,12 +6,12 @@ export const SITE: Site = {
   profile: "https://marsdeat.uk/",
   desc: "The personal website of Andrew Marsden.",
   title: "Andrew Marsden",
-  ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: false,
+  ogImage: "me.jpg",
+  lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 10,
-  scheduledPostMargin: 5 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  scheduledPostMargin: 5 * 60 * 1000, // 5 minutes
+  showArchives: false,
 };
 
 export const LOCALE = {
