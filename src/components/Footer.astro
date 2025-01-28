@@ -1,5 +1,6 @@
 ---
 import Hr from "./Hr.astro";
+import LinkButton from "./LinkButton.astro";
 import Socials from "./Socials.astro";
 
 const currentYear = new Date().getFullYear();
@@ -11,16 +12,16 @@ export interface Props {
 const { noMarginTop = false } = Astro.props;
 ---
 
-<footer class={`${noMarginTop ? "" : "mt-auto"}`}>
+<footer class={`${noMarginTop ? "" : "mt-auto"}`} style="text-align: center;">
   <Hr noPadding />
-  <div class="footer-wrapper">
-    <Socials centered />
-    <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="separator">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
-    </div>
-  </div>
+      <p style="padding-top:1em; padding-bottom:2em;">Copyright &#169; {currentYear} Andrew Marsden
+      <br />
+      All content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" style="text-decoration: underline; text-decoration-style: dotted;">CC-BY 4.0</a> (except where otherwise stated)
+      <br />
+      Built in <a href="https://astro.build" style="text-decoration: underline; text-decoration-style: dotted;">Astro</a> • Template: <a href="https://github.com/satnaing/astro-paper" style="text-decoration: underline; text-decoration-style: dotted;">AstroPaper by Sat Naing</a>
+      <br />
+      
+      </p>
 </footer>
 
 <style>

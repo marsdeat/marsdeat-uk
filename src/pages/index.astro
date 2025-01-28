@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Andrew Marsden</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,29 +42,36 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        The personal website and blog of Andrew Marsden. Here you'll find posts about whatever topics take my fancy, and a history of other projects I decide to preserve here.
       </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
+      <table>
+        <thead><strong>Social links:</strong></thead>
+        <tr>
+          <td><a href="https://eldritch.cafe/@marsdeat"><i style="font-size: 32px" class="ti ti-brand-mastodon" /></a></td>
+          <th><a href="https://eldritch.cafe/@marsdeat">Mastodon</a></th>
+          <td><a href="https://eldritch.cafe/@marsdeat">@marsdeat@eldritch.cafe</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://bsky.social/@marsdeat.uk"><i style="font-size: 32px" class="ti ti-brand-bluesky" /></a></td>
+          <th><a href="https://bsky.social/@marsdeat.uk">Bluesky</a></th>
+          <td><a href="https://bsky.social/@marsdeat.uk">@marsdeat.uk</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://pixelfed.social/marsdeat"><i style="font-size: 32px" class="ti ti-photo" /></a></td>
+          <th><a href="https://pixelfed.social/marsdeat">Pixelfed</a></th>
+          <td><a href="https://pixelfed.social/marsdeat">@marsdeat@pixelfed.social</a></td>
+        </tr>
+        <tr>
+          <td><a href="mailto:atmarsden95@gmail.com"><i style="font-size: 32px" class="ti ti-mail" /></a></td>
+          <th><a href="mailto:atmarsden95@gmail.com">Email</a></th>
+          <td><a href="mailto:atmarsden95@gmail.com">atmarsden95@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://youtube.com/@marsdeat"><i style="font-size: 32px" class="ti ti-brand-youtube" /></a></td>
+          <th><a href="https://youtube.com/@marsdeat">YouTube</a></th>
+          <td><a href="https://youtube.com/@marsdeat">@marsdeat</a></td>
+        </tr>
+      </table>
     </section>
 
     <Hr />

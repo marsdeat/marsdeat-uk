@@ -13,7 +13,7 @@
     --color-border: 236, 233, 233;
   }
   html[data-theme="dark"] {
-    --color-fill: 33, 39, 55;
+    --color-fill: 33, 39, 55; /* lower contrast bgColor */
     --color-text-base: 234, 237, 243;
     --color-accent: 255, 107, 1;
     --color-card: 52, 63, 96;
@@ -114,6 +114,15 @@
     font-style: var(--shiki-dark-font-style) !important;
     font-weight: var(--shiki-dark-font-weight) !important;
     text-decoration: var(--shiki-dark-text-decoration) !important;
+  }
+  table {
+    margin-top: 0.3em;
+  }
+  th {
+    text-align: left;
+    padding-left: 0.4em;
+    padding-right: 1em;
+    vertical-align: middle;
   }
 }
 
