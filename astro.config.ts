@@ -8,7 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.marsdeat.uk",
+  site: "https://marsdeat.uk",
   integrations: [
     tailwind({
       applyBaseStyles: false,
