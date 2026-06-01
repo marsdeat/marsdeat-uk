@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://marsdeat.uk/",
   author: "Andrew Marsden",
   profile: "https://marsdeat.uk/",
-  desc: "The personal website of Andrew Marsden.",
+  desc: "The personal website of Andrew Marsden",
   title: "Andrew Marsden",
   ogImage: "me.jpg",
   lightAndDarkMode: true,
