@@ -34,20 +34,21 @@ Repository and site content
 Source components
 -----------------
   AstroPaper theme, templates, and assets
-    - (c) 2023-2025 Sat Naing
+  up to version 4.7.0
+    - (c) 2023-2024 Sat Naing
     MIT License
   
   Astro and its components
-    - (c) 2021 Fred K. Schott
-    - (c) 2018-2025 Astro contributors
-    - (c) 2020-2025 SvelteKit contributors (some build components)
-    - (c) 2019-2025 Yuxi (Evan) You and Vite contributors (some build components)
+  up to version 4.16.18
+    - (c) 2021-2024 Fred K. Schott
+    - (c) 2018-2024 Astro contributors
+    - (c) 2020-2024 SvelteKit contributors (some build components)
+    - (c) 2019-2024 Yuxi (Evan) You and Vite contributors (some build components)
     All under MIT License
   
-  Tabler libraries
-    - (c) 2018-2025 The Tabler Authors
+  Tabler icon libraries
+    - (c) 2018-2026 The Tabler Authors
     MIT License
-
 
 MIT License text
 ----------------
@@ -68,7 +69,6 @@ MIT License text
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-
 
 Creative Commons Attribution 4.0 International
 ----------------------------------------------
