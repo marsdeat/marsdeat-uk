@@ -1,8 +1,33 @@
+Licenses
+--------
+
+Repository and site content
+---------------------------
+- marsdeat.uk overall (c) 2025–2026 Andrew Marsden
+
+The code here is distributed overall under an MIT License. Any creative works
+included in this repository to which the author holds copyright is licensed
+under Creative Commons Attribution 4.0 by default except where otherwise stated.
+
+Source components
+-----------------
+AstroPaper theme, templates, and assets
+- (c) 2023-2025 Sat Naing
 MIT License
 
-Copyright (c) 2025–2026 Andrew Marsden
-Copyright (c) 2023 Sat Naing
+Astro and its components
+- (c) 2021 Fred K. Schott
+- (c) 2018-2025 Astro contributors
+- (c) 2020-2025 SvelteKit contributors (some build components)
+- (c) 2019-2025 Yuxi (Evan) You and Vite contributors (some build components)
+All under MIT License
 
+Tabler libraries
+- (c) 2018-2025 The Tabler Authors
+MIT License
+
+MIT License text
+----------------
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
